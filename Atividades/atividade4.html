@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <div class="formulario">
+        <h2>Contato</h2>
+
+        <form>
+            <input type="text" placeholder="Digite seu nome" required>
+            <input type="email" placeholder="Digite seu e-mail" required>
+            <textarea rows="4" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        function enviarFormulario() {
+            alert("Mensagem enviada com êxito! Obrigado pelo contato.");
+        }
+    </script>
+  
+</body>
+</html>

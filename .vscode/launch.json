@@ -1,0 +1,14 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open exemplo2Documento.html",
+            "file": "c:\\Users\\sara62477166\\Desktop\\java2\\exemploJS\\Var\\exemplo2Documento.html"
+        }
+    ]
+}

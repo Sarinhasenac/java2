@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmação de Navegação</title>
+    <script>
+        function confirmarSaida() {
+           
+            let resposta = confirm("Tem certeza que deseja abrir uma nova página?");
+
+          
+            if (resposta) {
+                window.location.href = "https://www.google.com";
+            }
+           
+        }
+    </script>
+</head>
+<body>
+
+    <a href="#" onclick="confirmarSaida()">Abrir Nova Página</a>
+
+</body>
+</html>
+
