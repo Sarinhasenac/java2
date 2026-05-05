@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>const e let</title>
+</head>
+<body>
+    <h1>Paniel</h1>
+    <h3>Registro de alunos</h3>
+
+    <label for="">Digite seu nome:</label>
+    <input type="text" name="" id="nome" placeholder="Digite seu nome aqui">
+    <label for="0">Digite a sua idade:</label>
+    <input type="text" id="idade" placeholder="Digite sua idade aqui">
+
+   <button onclick="mostar()">Mostar</button>
+   <p id="resultado"></p>
+
+    <script>
+        const sistema = "Sistema Registro"
+        function mostar() {
+            let nome = document.getElementById("nome").value
+            let idade = document.getElementById("idade").value
+            document.getElementById("resultado").innerHTML ="Bem vindo" + nome + " ,você" + idade + "anos. Bem vindo ao " + sistema
+        }
+    </script>
+</body>
+</html>
