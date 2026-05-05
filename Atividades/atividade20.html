@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <label for="">Digite seu nome:</label>
+    <input type="text" name="" id="nome" placeholder="Digite seu nome aqui">
+
+    <label for="">Digite o primeiro número:</label>
+    <input type="number" id="n1" placeholder="Digite o primeiro número aqui">
+
+    <label for="">Digite o segundo número:</label>
+    <input type="number" id="n2" placeholder="Digite o primeiro número aqui">
+
+    <label for="">Digite o terceiro número:</label>
+    <input type="number" id="n3" placeholder="Digite o primeiro número aqui">
+
+    <button onclick="mostar()">Mostar</button>
+   <p id="resultado"></p>
+
+    <script>
+        const sistema = "Java Script"
+        function mostrar() {
+            let nome = (document.getElementById("nome").value);
+            let n1 = Number(document.getElementById("n1").value);
+            let n2 = Number(document.getElementById("n2").value);
+            let n3 = Number(document.getElementById("n3").value);
+
+            total = n1 * n2* n3
+            document.getElementById("resultado").innerHTML = "Olá" + nome + ", o resultado de multiplicação é:" + total
+            }
+    </script>
+
+</body>
+</html>
