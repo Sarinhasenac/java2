@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open exemplo2Documento.html",
-            "file": "c:\\Users\\sara62477166\\Desktop\\java2\\exemploJS\\Var\\exemplo2Documento.html"
+            "name": "Iniciar o Chrome em relação a localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
