@@ -1,26 +1,36 @@
-body{
-    background-color: rgb(231, 154, 154);
-    color:rgb(68, 70, 67)
-}
-h1{
-    text-align: center;
-}
 .form-boot{
-    width: 700px;
+    width: 600px;
     margin: auto;
     margin-top: 100px;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(250, 235, 215, 0.462);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px black;
+}
+
+.form-control{
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
+
+.title-1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
 }
 .btn-1{
     margin-top: 20px;
+    
 }
 .btn{
-   background-color: rgb(15, 12, 12);
-   padding: 20px;
-   color: rgb(75, 211, 211);
-  }
-  .btn:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    padding: 10px;
     border: none;
- }
+    margin-top: 70px;
+}
+.btn:hover{
+    background-color: rgb(243, 132, 132);
+    color: black;
+}
